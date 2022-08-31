@@ -16,7 +16,11 @@
         "titleBar.activeBackground": "#60dc01",
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#60dc0199",
-        "titleBar.inactiveForeground": "#15202b99"
+        "titleBar.inactiveForeground": "#15202b99",
+        "commandCenter.border": "#15202b99"
+    },
+    "emmet.includeLanguages": {
+        "javascript" : "javascriptreact"
     },
     "peacock.color": "#60dc01"
 }

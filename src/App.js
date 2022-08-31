@@ -1,22 +1,7 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import TreeChild from "./components/TreeChild";
-import tree from "./treeView";
+import React from 'react'
 
-function App() {
-  const [treeView, setTree] = useState(tree);
-
-  useEffect(() => {
-    console.log("🚀 ~ App ~ treeView", treeView)
-  }, [])
-
+export default function App() {
   return (
-    <>
-      <div className='container mt-4'>
-        <TreeChild  treeChild = {treeView}/>
-      </div>
-    </>
-  );
+    <div>App</div>
+  )
 }
-
-export default App;
